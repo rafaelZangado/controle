@@ -63,14 +63,14 @@ $result=mysqli_query($conn, $consulta);
  
  
 	 <hr />
-	 <?php $_SESSION['msg']?>
+	 <?php echo $_SESSION['msg']; ?>
  	<div id="list" class="row">
 	<div class="table-responsive col-md-12">
 		<table class="table table-striped" cellspacing="0" cellpadding="0">
 			<thead>
 				<tr> 
 					<th>Codigo do produto</th>
-					<th>Nome do intem</th>
+					<th>Nome do item</th>
 					<th>Tipo</th>
 					<th>Data da compra</th>
 					<th class="actions">Ações</th>

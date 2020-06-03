@@ -60,12 +60,12 @@
     </div>
 
     <div class="col-md-4">
-      <p><strong>DATA</strong></p>
+      <p><strong>DESCRIÇÃO</strong></p>
   	  <p><?php echo $visualizar_produto['descricao']?></p>
     </div>
 
     <div class="col-md-4">
-      <p><strong>DATA</strong></p>
+      <p><strong>CATEGORIA</strong></p>
   	  <p><?php echo $visualizar_produto['categoria']?></p>
     </div>
 
